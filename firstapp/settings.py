@@ -27,8 +27,8 @@ TEMPLATE_DEBUG = True
 ALLOWED_HOSTS = []
 
 TEMPLATE_DIRS = (
-    '/home/damir/djangoenvyoutube/bin/firstapp/templates',
-    '/home/damir/djangoenvyoutube/bin/firstapp/article/templates',
+    '/home/damir/djangostudying/bin/firstapp/templates',
+    '/home/damir/djangostudying/bin/firstapp/article/templates',
 )
 
 
@@ -88,5 +88,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
-    ('static', '/home/damir/djangoenvyoutube/bin/firstapp/static'),
+    ('static', '/home/damir/djangostudying/bin/firstapp/static'),
 )
