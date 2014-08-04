@@ -29,6 +29,7 @@ ALLOWED_HOSTS = []
 TEMPLATE_DIRS = (
     '/home/damir/djangostudying/bin/firstapp/templates',
     '/home/damir/djangostudying/bin/firstapp/article/templates',
+    '/home/damir/djangostudying/bin/firstapp/loginsys/templates',
 )
 
 
@@ -42,6 +43,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'article',
+    'loginsys',
 )
 
 MIDDLEWARE_CLASSES = (
